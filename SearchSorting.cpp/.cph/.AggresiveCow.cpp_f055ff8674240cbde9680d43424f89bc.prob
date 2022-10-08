@@ -1,0 +1,1 @@
+{"name":"Local: AggresiveCow","url":"d:\\DSA-Shradha\\SearchSorting.cpp\\AggresiveCow.cpp","tests":[{"id":1661959381585,"input":"5\n4 2 1 3 6\n2","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\SearchSorting.cpp\\AggresiveCow.cpp","group":"local","local":true}

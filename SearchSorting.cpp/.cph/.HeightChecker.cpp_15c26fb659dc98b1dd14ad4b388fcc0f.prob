@@ -1,0 +1,1 @@
+{"name":"Local: HeightChecker","url":"d:\\DSA-Shradha\\SearchSorting.cpp\\HeightChecker.cpp","tests":[{"id":1662665472729,"input":"6\n1 1 4 2 1 3","output":"3"},{"id":1662665495357,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\SearchSorting.cpp\\HeightChecker.cpp","group":"local","local":true}

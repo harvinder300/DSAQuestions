@@ -1,0 +1,1 @@
+{"name":"Local: SmallestWindowInstring","url":"d:\\DSA-Shradha\\Strings\\SmallestWindowInstring.cpp","tests":[{"id":1660233694197,"input":"timetopractice\ntoc","output":"toprac"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\Strings\\SmallestWindowInstring.cpp","group":"local","local":true}

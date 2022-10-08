@@ -1,0 +1,1 @@
+{"name":"Local: FindPairWithDiff","url":"d:\\DSA-Shradha\\SearchSorting.cpp\\FindPairWithDiff.cpp","tests":[{"id":1660507556853,"input":"6\n5 20 3 2 50 80\n78","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\SearchSorting.cpp\\FindPairWithDiff.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: SearchInArray","url":"d:\\DSA-Shradha\\SearchSorting.cpp\\SearchInArray.cpp","tests":[{"id":1660498739397,"input":"6\n20 40 50 70 70 60\n20\n60","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\SearchSorting.cpp\\SearchInArray.cpp","group":"local","local":true}

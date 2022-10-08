@@ -1,0 +1,1 @@
+{"name":"Local: ValidAnagram","url":"d:\\DSA-Shradha\\Strings\\ValidAnagram.cpp","tests":[{"id":1656783285631,"input":"anagram\nnagaram","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\Strings\\ValidAnagram.cpp","group":"local","local":true}

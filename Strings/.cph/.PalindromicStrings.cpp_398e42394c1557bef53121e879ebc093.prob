@@ -1,0 +1,1 @@
+{"name":"Local: PalindromicStrings","url":"d:\\DSA-Shradha\\Strings\\PalindromicStrings.cpp","tests":[{"id":1660212731019,"input":"abc","output":"3"},{"id":1660212744543,"input":"aaa","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\Strings\\PalindromicStrings.cpp","group":"local","local":true}

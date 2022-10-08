@@ -1,0 +1,1 @@
+{"name":"Local: WildCardStringMatch","url":"d:\\DSA-Shradha\\Strings\\WildCardStringMatch.cpp","tests":[{"id":1660391592514,"input":"ge*ks\ngeeks","output":"yes"},{"id":1660391625375,"input":"ge?ks*\ngeeksforgeeks","output":"yes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\Strings\\WildCardStringMatch.cpp","group":"local","local":true}

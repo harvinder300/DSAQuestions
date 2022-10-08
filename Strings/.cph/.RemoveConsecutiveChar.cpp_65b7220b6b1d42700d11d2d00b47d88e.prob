@@ -1,0 +1,1 @@
+{"name":"Local: RemoveConsecutiveChar","url":"d:\\DSA-Shradha\\Strings\\RemoveConsecutiveChar.cpp","tests":[{"id":1656784013490,"input":"aabb","output":"ab"},{"id":1656784340660,"input":"aabaa","output":"aba"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\Strings\\RemoveConsecutiveChar.cpp","group":"local","local":true}

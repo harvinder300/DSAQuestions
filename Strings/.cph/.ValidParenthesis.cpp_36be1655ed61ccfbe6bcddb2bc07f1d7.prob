@@ -1,0 +1,1 @@
+{"name":"Local: ValidParenthesis","url":"d:\\DSA-Shradha\\Strings\\ValidParenthesis.cpp","tests":[{"id":1656783501989,"input":"()[]{}","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\Strings\\ValidParenthesis.cpp","group":"local","local":true}

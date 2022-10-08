@@ -1,0 +1,1 @@
+{"name":"Local: FindDuplicates","url":"d:\\DSA-Shradha\\SearchSorting.cpp\\FindDuplicates.cpp","tests":[{"id":1661186631833,"input":"7\n1 2 3 6 3 6 1","output":"1 3 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\SearchSorting.cpp\\FindDuplicates.cpp","group":"local","local":true}

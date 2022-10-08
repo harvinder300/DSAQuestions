@@ -1,0 +1,1 @@
+{"name":"Local: CombinationSum","url":"d:\\DSA-Shradhha\\Array\\CombinationSum.cpp","tests":[{"id":1663440571669,"input":"4\n2 3 6 7\n7","output":"2 2 3\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradhha\\Array\\CombinationSum.cpp","group":"local","local":true}

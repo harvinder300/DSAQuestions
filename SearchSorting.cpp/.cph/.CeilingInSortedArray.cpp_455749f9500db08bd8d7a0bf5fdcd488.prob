@@ -1,0 +1,1 @@
+{"name":"Local: CeilingInSortedArray","url":"d:\\DSA-Shradha\\SearchSorting.cpp\\CeilingInSortedArray.cpp","tests":[{"id":1660504996353,"input":"7\n1 2 8 10 10 12 19\n3","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\SearchSorting.cpp\\CeilingInSortedArray.cpp","group":"local","local":true}

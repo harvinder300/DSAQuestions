@@ -1,0 +1,1 @@
+{"name":"Local: LongestRepeatingCharReplac","url":"d:\\DSA-Shradha\\Strings\\LongestRepeatingCharReplac.cpp","tests":[{"id":1660067993279,"input":"AABABBA\n1","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA-Shradha\\Strings\\LongestRepeatingCharReplac.cpp","group":"local","local":true}
