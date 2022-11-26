@@ -38,6 +38,55 @@ TreeNode *BuildTree(TreeNode *root)
 
     return root;
 }
+vector<TreeNode *> Reverse(int size, vector<TreeNode *> &level)
+{
+    int l = 0, r = level.size() - 1;
+    while (l < r)
+    {
+        int x = level[l]->data;
+        int y = level[r]->data;
+        level[l]->data = y;
+        level[r]->data = x;
+        l++, r--;
+    }
+    return level;
+}
+TreeNode *reverseOddLevels(TreeNode *root)
+{
+
+    queue<TreeNode *> q;
+    q.push(root);
+
+    bool reverse = false;
+
+    while (!q.empty())
+    {
+        int size = q.size();
+        vector<TreeNode *> level;
+        for (int i = 0; i < size; i++)
+        {
+            TreeNode *node = q.front();
+            q.pop();
+
+            if (node->left)
+                q.push(node->left);
+            if (node->right)
+                q.push(node->right);
+            level.push_back(node);
+        }
+
+        if (reverse)
+        {
+            Reverse(size, level);
+            reverse = false;
+        }
+
+        else
+            reverse = true;
+    }
+    return root;
+}
+// 2 3 8 -1 -1 13 -1 -1 5 21 -1 -1 34 -1 -1
 vector<int> levelOrder(TreeNode *root)
 {
     queue<TreeNode *> q;
@@ -75,6 +124,8 @@ int main()
 {
     TreeNode *root = NULL;
     root = BuildTree(root);
+    cout << "ReverseOddLevels" << endl;
+    root = reverseOddLevels(root);
     cout << "Printing Level Order Traversal :- " << endl;
     vector<int> ans = levelOrder(root);
     for (auto i : ans)

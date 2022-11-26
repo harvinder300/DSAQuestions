@@ -79,7 +79,7 @@ node *buildTree(int inOrder[], int postOrder[], int n)
 int main()
 {
     int n;
-    cout<<"Enter the size : -"
+    cout<<"Enter the size : -";
     cin >> n;
     int inOrder[n];
     int postOrder[n];

@@ -38,31 +38,30 @@ TreeNode *BuildTree(TreeNode *root)
 
     return root;
 }
-vector<int> levelOrder(TreeNode *root)
+vector<int> largestValues(TreeNode *root)
 {
+    vector<int> ans;
+    if (root == NULL)
+        return ans;
     queue<TreeNode *> q;
     q.push(root);
     q.push(NULL);
     vector<int> res;
-    vector<int> ans;
     while (!q.empty())
     {
         TreeNode *temp = q.front();
-
         q.pop();
-
         if (temp == NULL)
         {
-            cout << endl;
-            // Previous level was completed
-            if (!q.empty()) // queue still has some child nodes
+            if (!q.empty())
                 q.push(NULL);
+            int x = *max_element(res.begin(), res.end());
+            ans.push_back(x);
+            res.clear();
         }
         else
         {
-            cout << temp->data << " ";
             res.push_back(temp->data);
-
             if (temp->left)
                 q.push(temp->left);
             if (temp->right)
@@ -76,7 +75,7 @@ int main()
     TreeNode *root = NULL;
     root = BuildTree(root);
     cout << "Printing Level Order Traversal :- " << endl;
-    vector<int> ans = levelOrder(root);
+    vector<int> ans = largestValues(root);
     for (auto i : ans)
         cout << i << " ";
     // 3 9 -1 -1 20 15 -1 -1 7 -1 -1
